@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid and Flex</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap" rel="stylesheet">
 </head>
 <nav>
-    <div class="nav-left">Logo</div>
+    <div class="nav-left"><img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" alt=""></div>
             <div class="nav-right">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -19,7 +22,9 @@
             </div>
 </nav>
     <header>
-        <h1>< Hello World /></h1>
+        <h1 class="abstand">< Hello World /></h1>
+        <h2>class=learn</h2>
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_Ssbj3iUBzB.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
         <p>
             ..and hello you! This is your first ever coding project. At the end of
             this workshop you will have created your first little blog! In the
@@ -31,21 +36,26 @@
     <main>
         <section id="duck">
             <div class="text">
-                <h2>Your new best friend</h2>
+                <h3>Your new best friend</h3>
                 <p>
-                    Your text here...
+                    Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen,
+                    gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße.
+                    Ich bin allein und freue mich meines Lebens in dieser Gegend,
+                    die für solche Seelen geschaffen ist wie die meine.
+
+
                 </p>
             </div>
             <div class="duck">
                 <a href="#"
                     ><img
-                        src="https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png"
+                        src="https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png" width="100%"
                         alt="rubberduck"
                 /></a>
             </div>
         </section>
         <section id="emergency">
-            <h2>In case of emergency click on:</h2>
+            <h3>In case of emergency click on:</h3>
                 <div class="grid-container">
                     <a
                         href="https://discordapp.com/channels/641221910146842644/641593560394760200"
@@ -68,14 +78,15 @@
         </section>
     </main>
     <footer id="contact">
-        <h2>Contact us</h2>
+        <h3>Contact us</h3>
         <form>
-        <input type="text" />
-        <textarea cols="30" rows="10"></textarea>
+        <input type="text" placeholder="Name" />
+        <textarea cols="30" rows="5" placeholder="Deine Nachricht"></textarea>
         <button>Submit</button>
         </form>
-        <div>Proudly created by <em>me</em></div>
+        <div class="proudly">Proudly created by <em>me</em></div>
     </footer>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <body>
     
 </body>
